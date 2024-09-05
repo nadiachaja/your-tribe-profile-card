@@ -1,6 +1,15 @@
-const expandButton = document.querySelector('header button')
-expandButton.addEventListener('click', expand)
+console.log("hoi")
 
-function expand () {
-  document.body.classList.toggle('expand')
+const flipButton = document.querySelector('button')
+console.log(flipButton)
+const card = document.querySelector('article')
+console.log(card)
+
+flipButton.addEventListener('click', flipper)
+
+function flipper() {
+  console.log("flip functie")
+  
+
+  card.classList.toggle('flip')
 }
